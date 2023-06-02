@@ -1,0 +1,27 @@
+h1, h2 {
+  text-align: center;
+  font-family: "courier new", courier, moospace;
+  color:blueviolet;
+}
+
+.cuadrado {
+  width: 100px;
+  height: 100px;
+  border-style: double;
+  border-color:cornflowerblue;
+
+}
+
+.cuadricula {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  width: 320px;
+  height: 320
+  margin: 10px auto;
+}
+.topo {
+  background-image: url("topo1.jpg");
+  background-size: cover;
+}
